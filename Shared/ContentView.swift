@@ -60,7 +60,7 @@ struct BiometricIDHandler {
 struct ContentView: View {
     var body: some View {
         Button("Touch Id") {
-            TouchIDHandler.authenticateWithBiometrics()
+            BiometricIDHandler.authenticateWithBiometrics()
         }
     }
 }
